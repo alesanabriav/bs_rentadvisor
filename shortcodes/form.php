@@ -28,14 +28,6 @@ function bs_form_sc($atts, $content = null) {
     <?php } ?>
     </form>
 
-    <?php 
-    $increme=0;
-    foreach($at as $titulo){ 
-         $increme+=200; ?>
-        <h1 data-<?php echo $increme-200;?>="transform:rotate(0deg);" data-<?php echo $increme;?> ="transform:rotate(360deg);"><?php echo($titulo);?></h1><br />
-    <?php } ?>
-
-</div>
 
 <script>
 	onLoad(function() {
