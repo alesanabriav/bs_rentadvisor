@@ -3,13 +3,13 @@
 ** 	
 **/
 
-add_shortcode( 'bs_skrollr', 'bs_skrollr_sc' );
+add_shortcode( 'bs_form', 'bs_form_sc' );
 
-function bs_skrollr_sc($atts, $content = null) {
+function bs_form_sc($atts, $content = null) {
 	$attributes = [
 		'titulo1' => '',
 		'titulo2' => '',
-    'titulo3' => ''
+        'titulo3' => ''
   ];
 
   $at = shortcode_atts( $attributes , $atts );
@@ -18,9 +18,17 @@ function bs_skrollr_sc($atts, $content = null) {
 ?>
 
 
-<div class="skrollr_container">
+<div class="form_container">
+    <form action="">
     <?php 
+    foreach($at as $titulo){ 
+          ?>
+        <label><?php echo($titulo);?></label>
+        <input type="text"></input>
+    <?php } ?>
+    </form>
 
+    <?php 
     $increme=0;
     foreach($at as $titulo){ 
          $increme+=200; ?>
@@ -32,7 +40,7 @@ function bs_skrollr_sc($atts, $content = null) {
 <script>
 	onLoad(function() {
 		//jquery stuff iría acá
-	    var s = skrollr.init();
+	    //var s = skrollr.init();
 	});
 </script>
 <?php
@@ -41,9 +49,9 @@ function bs_skrollr_sc($atts, $content = null) {
 }
 
 
-add_action( 'vc_before_init', 'bs_skrollr_vc' );
+add_action( 'vc_before_init', 'bs_form_vc' );
 
-  function bs_skrollr_vc() {
+  function bs_form_vc() {
 		$params = [
 			[
         "type" => "textfield",
@@ -67,8 +75,8 @@ add_action( 'vc_before_init', 'bs_skrollr_vc' );
 
   	vc_map(
       array(
-        "name" =>  "BS Skrollr",
-        "base" => "bs_skrollr",
+        "name" =>  "BS Form",
+        "base" => "bs_form",
         "category" =>  "BS",
         "params" => $params
       ) 
