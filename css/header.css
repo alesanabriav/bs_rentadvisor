@@ -11,5 +11,5 @@
 }
 
 .bs-img-invert{
-	filter: grayscale() invert();
+	filter: grayscale() invert(100%);
 }
