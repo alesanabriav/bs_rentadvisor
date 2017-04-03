@@ -2,4 +2,4 @@
 
 //apis
 include 'api/index.php';
-print_r('functions');
+print_r(['arr' => 'nea']);
