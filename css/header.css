@@ -5,3 +5,11 @@
 	width:100%;
 	height: 110px;
 }
+
+#bs-main-logo{
+
+}
+
+.bs-img-invert{
+	filter: grayscale() invert():
+}

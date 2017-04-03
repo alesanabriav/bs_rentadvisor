@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div id="header">
-	<div id="bs-main-logo"><img src="<?php echo get_template_directory_uri() ?>/img/main-logo.png" alt="main-logo" /></div>
+	<div id="bs-main-logo" class="bs-img-invert"><img src="<?php echo get_template_directory_uri() ?>/img/main-logo.png" alt="main-logo" /></div>
 	<nav>
 		<ul>
 			<li></li>
