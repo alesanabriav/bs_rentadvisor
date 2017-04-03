@@ -11,7 +11,7 @@
     
   <?php endwhile; else : ?>
     <h1>
-    <?php echo gett('404') ?>
+    <?php echo '404'; ?>
     </h1>
   <?php endif; ?>
 </div>
