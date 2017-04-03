@@ -8,8 +8,7 @@ function bs_store_contact() {
 		$data = $_POST['data'];
 		$res = storeContact($data);
 		header('Content-type: application/json');
-		echo json_encode($res);
+		echo json_encode(['nea' => 'ok']);
     // Don't forget to stop execution afterward.
     wp_die();
 }
-Ï
