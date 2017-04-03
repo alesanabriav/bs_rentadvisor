@@ -12,8 +12,8 @@
 </head>
 <body>
 <main>
-<header>
+<div id="header">
 <div id="bs-main-logo"><img src="#" alt="main-logo " /></div>
 <nav></nav>
-</header>
+</div>
 	
