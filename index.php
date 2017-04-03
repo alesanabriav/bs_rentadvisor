@@ -1,5 +1,8 @@
 <?php get_header() ?>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam quam minima, facere illo enim, voluptas tempore nam illum aliquid fugit in, placeat, ex cum odio sequi voluptatum porro ipsum autem.
+
+<div id="header">
+  header
+</div>
 <div>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
