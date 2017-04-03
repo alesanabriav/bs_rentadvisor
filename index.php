@@ -3,6 +3,7 @@
 <div id="header">
   header
 </div>
+
 <div>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
