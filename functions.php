@@ -1,4 +1,4 @@
 <?php 
 
 //apis
-require('api/index.php');
+include 'api/index.php';
