@@ -2,4 +2,4 @@
 
 //apis
 include 'api/index.php';
-var_dump('functions');
+print_r('functions');
