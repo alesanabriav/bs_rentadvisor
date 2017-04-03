@@ -2,6 +2,7 @@
 	  <?php wp_footer() ?>
 	<!-- /wordpress files-->
 	<script>
+	$(function() {
 		$.ajax({
 			url: '/wp-admin/admin-ajax.php',
 			type: 'post',
@@ -13,6 +14,8 @@
 		.done(function(res) {
 			console.log(res);
 		})
+	})
+
 	</script>
 </body>
 </html>
