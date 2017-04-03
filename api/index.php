@@ -9,6 +9,6 @@ function bs_store_contact() {
 		// $data = $_POST['data'];
 		// $res = storeContact($data);
 		header('Content-type: application/json');
-		echo json_encode(['nea' => 'ok']);
+		return json_encode(['nea' => 'ok']);
 		die();
 }
