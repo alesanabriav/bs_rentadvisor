@@ -7,9 +7,8 @@ add_action( 'wp_ajax_bs_store_contact', 'bs_store_contact' );
 
 function bs_store_contact() {
 		$data = $_POST['data'];
-		$res = storeContact($data);
+		// $res = storeContact($data);
 		header('Content-type: application/json');
 		echo json_encode(['nea' => 'ok']);
-    // Don't forget to stop execution afterward.
     wp_die();
 }
