@@ -10,5 +10,5 @@ function bs_store_contact() {
 		// $res = storeContact($data);
 		header('Content-type: application/json');
 		return json_encode(['nea' => 'ok']);
-		die();
+		die('nea');
 }
