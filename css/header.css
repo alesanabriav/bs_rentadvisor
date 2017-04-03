@@ -7,9 +7,16 @@
 }
 
 #bs-main-logo{
-
+	display:inline-block;
 }
 
 .bs-img-invert{
 	filter: grayscale(100%) invert(100%) brigthness(100);
+}
+
+#header nav{
+	display:inline-block;
+}
+#header li{
+	display:inline;
 }
