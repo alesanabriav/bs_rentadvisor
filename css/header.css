@@ -1,3 +1,7 @@
 #header {
-	background: red
+	position:relative;
+	display:block;
+	background: red;
+	width:100%;
+	height: 110px;
 }
