@@ -11,9 +11,13 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
 </head>
 <body>
-<main>
-<div id="header">
-<div id="bs-main-logo"><img src="#" alt="main-logo " /></div>
-<nav></nav>
+	<div id="header">
+	<div id="bs-main-logo"><img src="./main-logo.png" alt="main-logo " /></div>
+	<nav>
+		<ul>
+			<li></li>
+			<li></li>
+		</ul>
+	</nav>
 </div>
 	
