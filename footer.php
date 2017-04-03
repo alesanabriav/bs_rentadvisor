@@ -2,7 +2,7 @@
 	  <?php wp_footer() ?>
 	<!-- /wordpress files-->
 	<script>
-	$(function() {
+	jQuery(function() {
 		$.ajax({
 			url: '/wp-admin/admin-ajax.php',
 			type: 'post',
