@@ -47,3 +47,7 @@ body{
 #bs-contact-text h3{
 	display:inline;
 }
+
+#bs-contact-text h3:first{
+	border-right:solid thin #3B2E7F;
+}
