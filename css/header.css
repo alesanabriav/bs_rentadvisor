@@ -25,7 +25,7 @@ body{
 
 #bs-main-logo{
 	display:inline-block;
-	margin: 20px 0;
+	margin: 20px 50px;
 }
 
 .bs-img-invert{
@@ -42,6 +42,7 @@ body{
 #bs-contact-text{
 	display:inline-block;
 	float:right;
+	margin:0 50px;
 }
 
 #bs-contact-text h3{
