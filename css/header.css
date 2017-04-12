@@ -5,10 +5,12 @@
 	border:solid thin red;
 	width:100%;
 	height: 110px;
+	padding:0 50px;
 }
 
 #bs-main-logo{
 	display:inline-block;
+	margin: 20px 0;
 }
 
 .bs-img-invert{
@@ -19,5 +21,14 @@
 	display:inline-block;
 }
 #header li{
+	display:inline;
+}
+
+#bs-contact-text{
+	display:inline-block;
+	float:right;
+}
+
+#bs-contact-text h3{
 	display:inline;
 }
