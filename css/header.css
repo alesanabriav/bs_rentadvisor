@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'Gotham-rounded-book';
-	src: url('fonts/gotham-rounded-book.eot');
-	src: local('☺'), url('fonts/gotham-rounded-book.woff') format('woff'), url('fonts/gotham-rounded-book.ttf') format('truetype'), url('fonts/gotham-rounded-book.svg') format('svg');
+	src: url('../fonts/gotham-rounded-book.eot');
+	src: local('☺'), url('../fonts/gotham-rounded-book.woff') format('woff'), url('../fonts/gotham-rounded-book.ttf') format('truetype'), url('../fonts/gotham-rounded-book.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
