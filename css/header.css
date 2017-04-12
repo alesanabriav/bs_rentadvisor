@@ -46,6 +46,8 @@ body{
 
 #bs-contact-text h3{
 	display:inline;
+	font-size: 18px;
+	padding: 0 5px;
 }
 
 #bs-contact-text h3:first{
