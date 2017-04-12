@@ -1,7 +1,8 @@
 #header {
 	position:relative;
 	display:block;
-	background: red;
+	background: #F6B818;
+	border:solid thin red;
 	width:100%;
 	height: 110px;
 }
