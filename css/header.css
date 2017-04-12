@@ -51,6 +51,6 @@ body{
 	padding: 0 5px;
 }
 
-#bs-contact-text h3:first{
+#bs-contact-text h3:first-of-type{
 	border-right:solid thin #3B2E7F;
 }
