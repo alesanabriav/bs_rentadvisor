@@ -49,6 +49,7 @@ body{
 	display:inline;
 	font-size: 18px;
 	padding: 0 5px;
+	letter-spacing: 2.5px;
 }
 
 #bs-contact-text h3:first-of-type{
