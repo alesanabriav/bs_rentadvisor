@@ -48,6 +48,11 @@ function bs_form_sc($atts, $content = null) {
         padding: 0 8px;
         margin: 5px;
       }
+
+      .form_container input::placeholder, .form_container textarea::placeholder, {
+       color:#3A2C84;
+      }
+
       .form_container textarea{
         width:95%;
         display:inline;
