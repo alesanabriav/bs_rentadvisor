@@ -49,7 +49,7 @@ function bs_form_sc($atts, $content = null) {
         margin: 5px;
       }
 
-      .form_container inputinput[placeholder], .form_container textareainput[placeholder], {
+      .form_container input[placeholder], .form_container textarea[placeholder], {
        color:#3A2C84!important;
       }
 
