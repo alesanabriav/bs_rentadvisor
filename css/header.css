@@ -51,8 +51,15 @@ body{
 	padding: 0 5px;
 }
 
+#bs-contact-text .inline-header img{
+	display:inline;
+	width:27px;
+	height: auto;
+}
+
 #bs-contact-text h3{
 	letter-spacing: 2.5px;
+	display:inline;
 }
 
 #bs-contact-text h3:first-of-type{
