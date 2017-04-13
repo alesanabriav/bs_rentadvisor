@@ -69,13 +69,16 @@ function bs_form_sc($atts, $content = null) {
       :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color:#3A2C84!important;
    opacity:  1;
+   font-size:1em;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
    color:#3A2C84!important;
    opacity:  1;
+   font-size:1em;
 }
 :-ms-textarea-placeholder { /* Internet Explorer 10-11 */
    color:#3A2C84!important;
+   font-size:1em;
 }
 
       .form_container textarea{
