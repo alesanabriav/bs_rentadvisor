@@ -27,8 +27,38 @@ function bs_form_sc($atts, $content = null) {
         <input type="text"></input>
     <?php //} ?>
     </form>-->
+    <style>
+      .form_container{}
+      .form_container form{
+        background:orange;
+        position:relative;
+        display:block;
+      }
+      .form_container input{
+        display:inline;
+        width:45%;
+      }
+      .form_container textarea{
+        width:100%;
+      }
+      .form_container .round_purple{
+        border:solid thin #3A2C84;
+        border-radius:5px;
+        color:#3A2C84;
+        background:transparent;
+      }
+    </style>
 
-    <div class="form_container"></div>
+    <div class="form_container">
+      <form action="">
+        <input class="round_purple" type="text" name="name" placeholder="Nombre" />
+        <input class="round_purple" type="text" name="email" placeholder="Email" />
+        <input class="round_purple" type="text" name="cel" placeholder="Cel" />
+        <input class="round_purple" type="text" name="empresa" placeholder="Empresa" />
+        <textarea class="round_purple" placeholder="Mensaje" />
+
+      </form>
+    </div>
 
 
 <script>
