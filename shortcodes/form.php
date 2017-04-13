@@ -85,17 +85,14 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
         <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
-        <textarea class="round_purple" placeholder="Mensaje">Mensaje</textarea>
+        <textarea class="round_purple" placeholder="Mensaje" > </textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
 
 
 <script>
-	onLoad(function() {
-		//jquery stuff iría acá
-	    //var s = skrollr.init();
-	});
+
 </script>
 <?php
 
