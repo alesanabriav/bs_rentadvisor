@@ -53,6 +53,19 @@ function bs_form_sc($atts, $content = null) {
        color:#3A2C84!important;
       }
 
+      ::-webkit-input-placeholder { /* WebKit, Blink, Edge */color:#3A2C84!important;}
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:#3A2C84!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#3A2C84!important;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:#3A2C84!important;
+}
+
       .form_container textarea{
         width:95%;
         display:inline;
