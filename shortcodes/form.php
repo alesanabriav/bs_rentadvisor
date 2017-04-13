@@ -28,11 +28,15 @@ function bs_form_sc($atts, $content = null) {
     <?php //} ?>
     </form>-->
     <style>
-      .form_container{}
-      .form_container form{
-        background:orange;
+      .form_container{
         position:relative;
         display:block;
+      }
+      .form_container form{
+        background:orange;
+        position:inherit;
+        display:block;
+        line-height:15px;
       }
       .form_container input{
         display:inline;
@@ -40,12 +44,17 @@ function bs_form_sc($atts, $content = null) {
       }
       .form_container textarea{
         width:100%;
+        display:block;
       }
       .form_container .round_purple{
         border:solid thin #3A2C84;
         border-radius:5px;
         color:#3A2C84;
         background:transparent;
+      }
+      .form_container button{
+          background:#3A2C84;
+          color:#F6B818;
       }
     </style>
 
@@ -56,6 +65,7 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
         <textarea class="round_purple" placeholder="Mensaje"></textarea>
+        <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
 
