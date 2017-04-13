@@ -16,7 +16,7 @@ body{
 	position:relative;
 	display:block;
 	background: #F6B818;
-	border:solid thin red;
+	/*border:solid thin red;*/
 	width:100%;
 	height: 110px;
 	line-height: 110px;
@@ -65,5 +65,5 @@ body{
 }
 
 #bs-contact-text .inline-header:first-of-type{
-	border-right:solid thin #3B2E7F;
+	border-right:solid 2px #3B2E7F;
 }
