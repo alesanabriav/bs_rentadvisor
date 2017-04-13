@@ -40,17 +40,17 @@ function bs_form_sc($atts, $content = null) {
       }
       .form_container input{
         display:inline;
-        width:44%;
+        width:44.5%;
         height:3em;
         margin:5px;
-        padding:0 10px;
+        padding:0 5px;
       }
       .form_container textarea{
         width:100%;
         display:inline;
         height:6em;
         margin:5px;
-        padding:0 10px;
+        padding:0 5px;
       }
       .form_container .round_purple{
         border:solid thin #3A2C84;
@@ -64,7 +64,7 @@ function bs_form_sc($atts, $content = null) {
           border-radius:5px;
           padding:5px 80px;
           border:none;
-          margin:0 auto;
+          margin:40px auto;
           display:block;
       }
     </style>
