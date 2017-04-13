@@ -37,6 +37,7 @@ function bs_form_sc($atts, $content = null) {
         position:inherit;
         display:block;
         line-height:15px;
+        padding: 15px 0;
       }
       .form_container input{
         display:inline;
@@ -44,10 +45,11 @@ function bs_form_sc($atts, $content = null) {
         height:2em;
         margin:5px;
         font-size:1em;
-        padding:0 5px;
+        padding: 0 8px;
+        margin: 5px;
       }
       .form_container textarea{
-        width:100%;
+        width:95%;
         display:inline;
         height:4em;
         font-size:1em;
@@ -66,8 +68,8 @@ function bs_form_sc($atts, $content = null) {
           border-radius:5px;
           padding:5px 100px;
           border:none;
-          font-size;1em;
-          margin:40px auto;
+          font-size:1em;
+          margin:20px auto;
           display:block;
       }
     </style>
@@ -78,7 +80,7 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
         <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
-        <textarea class="round_purple" placeholder="Mensaje"> </textarea>
+        <textarea class="round_purple" placeholder="Mensaje">Mensaje</textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
