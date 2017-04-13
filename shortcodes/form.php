@@ -25,7 +25,7 @@ function bs_form_sc($atts, $content = null) {
           ?>
         <label><?php //echo($titulo);?></label>
         <input type="text"></input>
-    <?php } ?>
+    <?php //} ?>
     </form>-->
 
     <div class="form_container"></div>
