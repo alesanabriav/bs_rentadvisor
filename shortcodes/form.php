@@ -18,15 +18,17 @@ function bs_form_sc($atts, $content = null) {
 ?>
 
 
-<div class="form_container">
+<!--<div class="form_container">
     <form action="">
     <?php 
-    foreach($at as $titulo){ 
+    //foreach($at as $titulo){ 
           ?>
-        <label><?php echo($titulo);?></label>
+        <label><?php //echo($titulo);?></label>
         <input type="text"></input>
     <?php } ?>
-    </form>
+    </form>-->
+
+    <div class="form_container"></div>
 
 
 <script>
