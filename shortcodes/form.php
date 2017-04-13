@@ -41,10 +41,16 @@ function bs_form_sc($atts, $content = null) {
       .form_container input{
         display:inline;
         width:45%;
+        height:2em;
+        margin:5px;
+        padding:0 10px;
       }
       .form_container textarea{
         width:100%;
-        display:block;
+        display:inline;
+        height:4em;
+        margin:5px;
+        padding:0 10px;
       }
       .form_container .round_purple{
         border:solid thin #3A2C84;
