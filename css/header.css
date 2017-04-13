@@ -54,7 +54,9 @@ body{
 #bs-contact-text .inline-header img{
 	display:inline;
 	width:27px;
-	height: auto;
+	height: 27px;
+	vertical-align:-5px;
+	margin-right:10px;
 }
 
 #bs-contact-text h3{
