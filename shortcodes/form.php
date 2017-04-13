@@ -33,11 +33,11 @@ function bs_form_sc($atts, $content = null) {
         display:block;
       }
       .form_container form{
-        background:orange;
+        /*background:orange;*/
         position:inherit;
         display:block;
         line-height:15px;
-        padding: 15px 0;
+        padding: 30px 0;
       }
       .form_container input{
         display:inline;
