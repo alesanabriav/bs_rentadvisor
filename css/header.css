@@ -64,6 +64,6 @@ body{
 	display:inline;
 }
 
-#bs-contact-text h3:first-of-type{
+#bs-contact-text .inline-header:first-of-type{
 	border-right:solid thin #3B2E7F;
 }
