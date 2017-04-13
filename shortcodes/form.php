@@ -40,7 +40,7 @@ function bs_form_sc($atts, $content = null) {
       }
       .form_container input{
         display:inline;
-        width:45%;
+        width:44%;
         height:2em;
         margin:5px;
         padding:0 10px;
