@@ -55,6 +55,8 @@ function bs_form_sc($atts, $content = null) {
       .form_container button{
           background:#3A2C84;
           color:#F6B818;
+          border-radius:5px;
+          padding:5px 50px;
       }
     </style>
 
@@ -64,7 +66,7 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
         <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
-        <textarea class="round_purple" placeholder="Mensaje"></textarea>
+        <textarea class="round_purple" placeholder="Mensaje"> </textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
