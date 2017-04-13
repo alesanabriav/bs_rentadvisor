@@ -65,6 +65,18 @@ function bs_form_sc($atts, $content = null) {
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
    color:#3A2C84!important;
 }
+      ::-webkit-textarea-placeholder { /* WebKit, Blink, Edge */color:#3A2C84!important;}
+      :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:#3A2C84!important;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#3A2C84!important;
+   opacity:  1;
+}
+:-ms-textarea-placeholder { /* Internet Explorer 10-11 */
+   color:#3A2C84!important;
+}
 
       .form_container textarea{
         width:95%;
@@ -98,7 +110,7 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
         <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
-        <textarea class="round_purple" placeholder="Mensaje" > </textarea>
+        <textarea class="round_purple" placeholder="Mensaje">Mensaje</textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
