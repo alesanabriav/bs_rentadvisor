@@ -88,6 +88,7 @@ function bs_form_sc($atts, $content = null) {
         font-size:1em;
         margin:5px;
         padding:0 5px;
+        font-family: 'Gotham-rounded-book';
       }
       .form_container .round_purple{
         border:solid thin #3A2C84;
