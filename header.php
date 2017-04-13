@@ -14,8 +14,8 @@
 	<div id="header">
 	<div id="bs-main-logo"><img class="bs-img-invert" src="<?php echo get_template_directory_uri() ?>/img/main-logo.png" alt="main-logo" /></div>
 	<div id="bs-contact-text">
-	<h3>PBX 636 1051</h3>
-	<h3>320 829 6053</h3>
+	<div class="inline-header"><img src="img/call.png" alt="phone"/><h3>PBX 636 1051</h3></div>
+	<div class="inline-header"><img src="img/whatsapp.png" alt="whatsapp"/><h3>320 829 6053</h3></div>
 	</div>
 	<nav>
 		<ul>

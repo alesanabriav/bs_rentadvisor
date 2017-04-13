@@ -45,10 +45,13 @@ body{
 	margin:0 50px;
 }
 
-#bs-contact-text h3{
+#bs-contact-text .inline-header{
 	display:inline;
 	font-size: 18px;
 	padding: 0 5px;
+}
+
+#bs-contact-text h3{
 	letter-spacing: 2.5px;
 }
 
