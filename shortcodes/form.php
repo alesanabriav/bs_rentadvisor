@@ -41,14 +41,14 @@ function bs_form_sc($atts, $content = null) {
       .form_container input{
         display:inline;
         width:44%;
-        height:2em;
+        height:3em;
         margin:5px;
         padding:0 10px;
       }
       .form_container textarea{
         width:100%;
         display:inline;
-        height:4em;
+        height:6em;
         margin:5px;
         padding:0 10px;
       }
@@ -62,7 +62,10 @@ function bs_form_sc($atts, $content = null) {
           background:#3A2C84;
           color:#F6B818;
           border-radius:5px;
-          padding:5px 50px;
+          padding:5px 80px;
+          border:none;
+          margin:0 auto;
+          display:block;
       }
     </style>
 
