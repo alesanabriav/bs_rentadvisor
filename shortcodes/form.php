@@ -51,11 +51,11 @@ function bs_form_sc($atts, $content = null) {
 
     <div class="form_container">
       <form action="">
-        <input class="round_purple" type="text" name="name" placeholder="Nombre" />
-        <input class="round_purple" type="text" name="email" placeholder="Email" />
-        <input class="round_purple" type="text" name="cel" placeholder="Cel" />
-        <input class="round_purple" type="text" name="empresa" placeholder="Empresa" />
-        <textarea class="round_purple" placeholder="Mensaje" />
+        <input class="round_purple" type="text" name="name" placeholder="Nombre" > </input>
+        <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
+        <input class="round_purple" type="text" name="cel" placeholder="Cel" > </input>
+        <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
+        <textarea class="round_purple" placeholder="Mensaje"></textarea>
 
       </form>
     </div>
