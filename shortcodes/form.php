@@ -100,7 +100,7 @@ function bs_form_sc($atts, $content = null) {
           background:#3A2C84;
           color:#F6B818;
           border-radius:5px;
-          padding:5px 100px;
+          padding:12px 100px;
           border:none;
           font-size:1em;
           margin:20px auto;
