@@ -103,7 +103,7 @@ body{
 	.form_container form{
 		padding:0;
 	}
-	.form_container input{
+	.form_container .round_purple{
 		display:block;
 		width:92%;
 	}
