@@ -86,6 +86,8 @@ body{
 
 	#bs-contact-text{
 		float:none;
+		margin:0;
+		text-align: center;
 
 	}
 
