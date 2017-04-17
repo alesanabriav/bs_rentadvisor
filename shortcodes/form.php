@@ -112,11 +112,11 @@ function bs_form_sc($atts, $content = null) {
 
     <div class="form_container">
       <form action="<?php echo get_template_directory_uri() ?>/mail.php" name="contact_form" method="post">
-        <input class="round_purple" type="text" name="name" placeholder="Nombre" > </input>
-        <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
-        <input class="round_purple" type="text" name="cel" placeholder="Celular"> </input>
-        <input class="round_purple" type="text" name="empresa" placeholder="Empresa"> </input>
-        <textarea class="round_purple" name="mensaje" placeholder="Mensaje"></textarea>
+        <input class="round_purple" type="text" name="name" placeholder="Nombre" required> </input>
+        <input class="round_purple" type="text" name="email" placeholder="Email" required> </input>
+        <input class="round_purple" type="text" name="cel" placeholder="Celular" required> </input>
+        <input class="round_purple" type="text" name="empresa" placeholder="Empresa" required> </input>
+        <textarea class="round_purple" name="mensaje" required placeholder="Mensaje"></textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>
