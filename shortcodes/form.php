@@ -38,6 +38,7 @@ function bs_form_sc($atts, $content = null) {
         display:block;
         line-height:15px;
         padding: 30px 0;
+        min-width:600px;
       }
       .form_container input{
         display:inline;
