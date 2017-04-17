@@ -2,7 +2,7 @@
 if(isset($_POST['email'])) {
  
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "comercial@rentadvisor.com.co, contact@brandspa.com";
+    $email_to = "anitacrihernandez@gmail.com, comercial@rentadvisor.com.co, contact@brandspa.com";
     $email_subject = "New Message from rentadvisor.co";
  
     function died($error) {
