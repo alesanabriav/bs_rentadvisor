@@ -86,16 +86,16 @@ body{
 
 	#bs-contact-text{
 		float:none;
-		margin:0;
+		margin:0 auto;
 		text-align: center;
-
+		display:block;
 	}
 
 	#bs-contact-text .inline-header{
 		font-size:14px
 	}
 	
-	#bs-contact-text img{
+	#bs-contact-text .inline-header img{
 		width:15px;
 		height:15px;
 	}
