@@ -116,7 +116,7 @@ function bs_form_sc($atts, $content = null) {
         <input class="round_purple" type="email" name="email" placeholder="Email" required> </input>
         <input class="round_purple" type="number" name="cel" placeholder="Celular" required> </input>
         <input class="round_purple" type="text" name="empresa" placeholder="Empresa" required> </input>
-        <textarea class="round_purple" name="mensaje" required placeholder="Mensaje"></textarea>
+        <textarea class="round_purple" name="mensaje" placeholder="Mensaje"></textarea>
         <button type="submit" value="Submit">Enviar</button>
       </form>
     </div>

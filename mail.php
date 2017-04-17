@@ -7,10 +7,10 @@ if(isset($_POST['email'])) {
  
     function died($error) {
         // your error code can go here
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
-        echo "These errors appear below.<br /><br />";
+        echo "Lo sentimos, hay un error en los datos suministrados. ";
+        echo "Los errores son los siguientes.<br /><br />";
         echo $error."<br /><br />";
-        echo "Please go back and fix these errors.<br /><br />";
+        echo "Por favor vuelva a la página anterior y corrija la información.<br /><br />";
         die();
     }
  
@@ -19,8 +19,7 @@ if(isset($_POST['email'])) {
     if(!isset($_POST['name']) ||
         !isset($_POST['email']) ||
         !isset($_POST['cel']) ||
-        !isset($_POST['empresa']) ||
-        !isset($_POST['mensaje'])) {
+        !isset($_POST['empresa']) ) {
         died('We are sorry, but there appears to be a problem with the form you submitted.');       
     }
  
@@ -49,9 +48,9 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Last Name you entered does not appear to be valid.<br />';
   }
  
-  if(strlen($comments) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
-  }
+  //if(strlen($comments) < 2) {
+    //$error_message .= 'The Comments you entered do not appear to be valid.<br />';
+  //}
  
   if(strlen($error_message) > 0) {
     died($error_message);
