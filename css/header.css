@@ -98,6 +98,8 @@ body{
 	#bs-contact-text .inline-header img{
 		width:15px;
 		height:15px;
+		vertical-align:0;
+		margin-right:2px;
 	}
 
 	.form_container form{
