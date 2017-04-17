@@ -78,19 +78,24 @@ body{
 	}
 
 	#bs-main-logo{
-		margin: 20px auto;
+		margin: 50px auto;
     	float: none;
     	width: 230px;
     	display: block;
 	}
 
+	#bs-contact-text{
+		float:none;
+
+	}
+
 	.inline-header{
 
 	}
 	.inline-header{
 
 	}
-	.inline-header img{
+	#bs-contact-text img{
 		width:20px;
 		height:20px;
 	}
