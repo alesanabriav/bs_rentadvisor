@@ -84,7 +84,7 @@ $headers = 'From: '.$email_from."\r\n".
  
 Thank you for contacting us. We will be in touch with you very soon.
 <script>
-  location.href = "http://rentadvisor.com.co/aumenta-tu-poder/";
+  location.href = "http://rentadvisor.com.co/gracias/";
 </script>
  
 <?php
