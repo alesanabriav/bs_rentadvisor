@@ -109,7 +109,7 @@ function bs_form_sc($atts, $content = null) {
     </style>
 
     <div class="form_container">
-      <form action="mail.php" name="contact_form" method="post">
+      <form action="<?php echo get_template_directory_uri() ?>/mail.php" name="contact_form" method="post">
         <input class="round_purple" type="text" name="name" placeholder="Nombre" > </input>
         <input class="round_purple" type="text" name="email" placeholder="Email" > </input>
         <input class="round_purple" type="text" name="cel" placeholder="Cel"> </input>
