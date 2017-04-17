@@ -83,6 +83,9 @@ $headers = 'From: '.$email_from."\r\n".
 <!-- include your own success html here -->
  
 Thank you for contacting us. We will be in touch with you very soon.
+<script>
+  location.href = "http://rentadvisor.com.co/aumenta-tu-poder/";
+</script>
  
 <?php
  
