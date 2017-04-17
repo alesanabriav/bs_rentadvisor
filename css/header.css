@@ -107,7 +107,7 @@ body{
 
 	.form_container form{
 		padding:0;
-		min-width:auto;
+		min-width:0!important;
 	}
 	.form_container .round_purple{
 		display:block;
